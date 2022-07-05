@@ -1,0 +1,29 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+.image-shadow {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(images/Rectangle\ 237.png);
+  padding: 235px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+
+.button-link {
+  text-decoration: none;
+  padding: 15px 32px;
+  margin-left: 450px;
+  background-color: salmon;
+  display: inline-block;
+}
