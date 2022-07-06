@@ -55,8 +55,8 @@ div p {
 a {
   text-decoration: none;
 }
-.red-color a {
-  display: inline-block;
+.red-color {
+  color: black;
 }
 a.red-color:hover {
   color: red;
