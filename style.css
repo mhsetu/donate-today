@@ -55,9 +55,13 @@ div p {
 a {
   text-decoration: none;
 }
+.red-color a {
+  display: inline-block;
+}
 a.red-color:hover {
   color: red;
   background-color: aqua;
+  display: inline;
   padding: 50px;
 }
 .hr-line hr {
@@ -82,4 +86,97 @@ a.red-color:hover {
   box-shadow: 10px 10px 40px grey;
   border-radius: 5px;
   display: inline-block;
+}
+.colorful-gap {
+  padding-top: 50px;
+}
+
+.light-green {
+  background-color: rgb(157, 252, 220);
+}
+.light-pink {
+  background-color: rgb(254, 126, 173);
+}
+.light-blue {
+  background-color: rgb(101, 194, 255);
+}
+.icon-padding {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.photo-size {
+  margin-left: 10px;
+  padding-left: 150px;
+}
+.photo-flex {
+  display: inline-flex;
+  margin-right: 5%;
+  padding: 100px 50px;
+}
+.photo-size img {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.photo-flex p {
+  height: 300px;
+  width: 500px;
+  margin-left: 100px;
+}
+.photo-flex h1 {
+  margin-left: 20px;
+}
+.how-to {
+  text-align: center;
+  color: white;
+  margin-left: 100px;
+}
+.photo-flexis {
+  display: inline-flex;
+  margin-right: 50px;
+  padding-top: 100px;
+  margin-left: 150px;
+}
+.photo-size-left {
+  margin-right: 10px;
+  padding-right: 230px;
+}
+.photo-size-left img {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+}
+.photo-flexis p {
+  height: 300px;
+  width: 500px;
+  margin-right: 100px;
+}
+.photo-flexis h1 {
+  margin-right: 100px;
+}
+.how-to-two {
+  text-align: center;
+  color: white;
+  margin-left: 0px;
+}
+.email-box {
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: aquamarine;
+  height: 50px;
+  width: 200px;
+  margin-left: 600px;
+}
+.footer {
+  background-color: black;
+  color: brown;
+  height: 200px;
+}
+.footer h2 {
+  padding-top: 50px;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
